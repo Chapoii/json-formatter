@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.json-key {
+  color: #9333ea;
+}
+
+.json-string {
+  color: #059669;
+}
+
+.json-number {
+  color: #2563eb;
+}
+
+.json-boolean {
+  color: #ea580c;
+}
+
+.json-null {
+  color: #6b7280;
+}
+
+.cm-editor {
+  height: 100%;
+}
+
+.cm-scroller {
+  overflow: auto;
+}
+
